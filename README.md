@@ -1,2 +1,2 @@
 # devops-learning
-documenting work ive done throughout my journey
+documenting my learning journey through projects, scripting, automation etc.
