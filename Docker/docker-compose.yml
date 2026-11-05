@@ -1,0 +1,12 @@
+services:
+  flask:
+    build: .
+    ports:
+      - "8080:5001"
+    environment:
+      REDIS_HOST: redis
+    depends_on:
+      - redis
+
+  redis:
+    image: redis
